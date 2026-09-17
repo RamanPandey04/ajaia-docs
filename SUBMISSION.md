@@ -2,11 +2,11 @@
 
 Live product: https://ajaia-docs-pi-one.vercel.app
 
-Repository: https://github.com/RamanPandey04/ajaia-docs (private; include source in the Google Drive submission folder)
+Repository: https://github.com/RamanPandey04/ajaia-docs (private;)
 
-Walkthrough video: <https://youtu.be/aYdZKP4TbBc>
+Walkthrough video: https://youtu.be/aYdZKP4TbBc
 
-Google Drive folder: <ADD DRIVE URL>
+Google Drive folder: https://drive.google.com/drive/folders/1ADKWxTPTg1UaoOK8_PVP_Z76PJlWvHWp?usp=sharing
 
 Demo users: Mira Shah (mira@ajaia.demo), Alex Chen (alex@ajaia.demo), Jordan Lee (jordan@ajaia.demo).
 
