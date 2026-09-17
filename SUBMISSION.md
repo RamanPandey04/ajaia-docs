@@ -4,7 +4,7 @@ Live product: https://ajaia-docs-pi-one.vercel.app
 
 Repository: https://github.com/RamanPandey04/ajaia-docs (private; include source in the Google Drive submission folder)
 
-Walkthrough video: <ADD VIDEO URL>
+Walkthrough video: <https://youtu.be/aYdZKP4TbBc>
 
 Google Drive folder: <ADD DRIVE URL>
 
