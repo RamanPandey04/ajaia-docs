@@ -62,7 +62,7 @@ Only `.txt` files up to 1 MB are accepted. Text is read in the browser and conve
 
 ## Deployment to Vercel
 
-The source is backed up in a private GitHub repository and a Vercel project is linked. Create or select a suitable Supabase project and apply the schema first. In Vercel Project Settings → Environment Variables, add `SUPABASE_URL` and `SUPABASE_SECRET_KEY` for Production (and Preview if needed). Deploy, open the live URL, and run the reviewer walkthrough against the deployed app. Do not expose the secret through public env variables. The application has not yet been deployed or database-smoke-tested.
+The live product is at https://ajaia-docs-pi-one.vercel.app. Source is backed up in a private GitHub repository. The linked Vercel project has `SUPABASE_URL` and `SUPABASE_SECRET_KEY` set as hidden server-side variables for Production and Preview. To redeploy, push changes and run `npx vercel@latest --prod --yes` from the repository root. The database migration, local API flow, and production API authorization flow have been verified. The visual browser walkthrough still needs to be checked before recording the video.
 
 ## Another 2–4 hours
 

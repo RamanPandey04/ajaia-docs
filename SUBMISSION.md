@@ -1,6 +1,6 @@
 # Ajaia Docs submission
 
-Live product: <ADD VERCEL URL>
+Live product: https://ajaia-docs-pi-one.vercel.app
 
 Repository: https://github.com/RamanPandey04/ajaia-docs (private; include source in the Google Drive submission folder)
 
