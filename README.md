@@ -27,7 +27,7 @@ The navbar explicitly says **Demo identity**. This is mocked identity, not secur
 ## Local setup
 
 1. Create a Supabase project.
-2. Open its SQL Editor and run all of `supabase/schema.sql`. This creates three tables, indexes, RLS settings, and the seeded users. Running it again is safe for the seed rows.
+2. Apply the database schema. Either run `supabase/schema.sql` in the project's SQL Editor, or use the identical migration in `supabase/migrations/` with `npx supabase@latest link --project-ref <PROJECT_REF>`, `npx supabase@latest db push --dry-run`, then `npx supabase@latest db push`. Choose one setup path for a fresh project.
 3. Copy `.env.example` to `.env.local` and set `SUPABASE_URL` and `SUPABASE_SECRET_KEY` from the Supabase project dashboard. Use the server secret/service-role key; never prefix it with `NEXT_PUBLIC_` or commit it.
 4. Run `npm install` and `npm run dev`.
 5. Open `http://localhost:3000`.
@@ -62,7 +62,7 @@ Only `.txt` files up to 1 MB are accepted. Text is read in the browser and conve
 
 ## Deployment to Vercel
 
-Push the repository to GitHub and import it into Vercel as a Next.js project. Create the Supabase project and run the schema first. In Vercel Project Settings → Environment Variables, add `SUPABASE_URL` and `SUPABASE_SECRET_KEY` for Production (and Preview if needed). Deploy, open the live URL, and run the reviewer walkthrough against the deployed app. Do not expose the secret through public env variables.
+The source is backed up in a private GitHub repository and a Vercel project is linked. Create or select a suitable Supabase project and apply the schema first. In Vercel Project Settings → Environment Variables, add `SUPABASE_URL` and `SUPABASE_SECRET_KEY` for Production (and Preview if needed). Deploy, open the live URL, and run the reviewer walkthrough against the deployed app. Do not expose the secret through public env variables. The application has not yet been deployed or database-smoke-tested.
 
 ## Another 2–4 hours
 

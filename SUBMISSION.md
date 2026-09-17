@@ -2,7 +2,7 @@
 
 Live product: <ADD VERCEL URL>
 
-Repository: <ADD GITHUB URL>
+Repository: https://github.com/RamanPandey04/ajaia-docs (private; include source in the Google Drive submission folder)
 
 Walkthrough video: <ADD VIDEO URL>
 
